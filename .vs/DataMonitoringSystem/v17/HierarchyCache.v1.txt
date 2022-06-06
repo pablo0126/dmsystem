@@ -1,0 +1,224 @@
+﻿++解决方案“DataMonitoringSystem”‎(2 个项目，共 2 个)
+i:{00000000-0000-0000-0000-000000000000}:DataMonitoringSystem.sln
+++Zhaoxi.Controls
+i:{00000000-0000-0000-0000-000000000000}:Zhaoxi.Controls
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++Properties
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.controls\properties\
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\properties\
+++引用
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++Instrument.xaml
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.controls\instrument.xaml
+++SkeletonScreen.xaml
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.controls\skeletonscreen.xaml
+++AssemblyInfo.cs
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.controls\properties\assemblyinfo.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\properties\assemblyinfo.cs
+++Microsoft.CSharp
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++PresentationCore
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++PresentationFramework
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Core
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Data
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Data.DataSetExtensions
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Net.Http
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Xaml
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Xml
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Xml.Linq
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++WindowsBase
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++Instrument.xaml.cs
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.controls\instrument.xaml.cs
+++SkeletonScreen.xaml.cs
+i:{a9634adf-62e4-4129-9bd9-087c8c765db5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.controls\skeletonscreen.xaml.cs
+++DataMonitoringSystem
+i:{00000000-0000-0000-0000-000000000000}:DataMonitoringSystem
+++Resources.resx
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\properties\resources.resx
+++Settings.settings
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\properties\settings.settings
+++Assets
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\assets\
+++Fonts
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\assets\fonts\
+++Images
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\assets\images\
+++Styles
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\assets\styles\
+++Common
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\common\
+++CommandBase.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\common\commandbase.cs
+++CourseDataTemplateSelector.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\common\coursedatatemplateselector.cs
+++EncryptUtil.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\common\encryptutil.cs
+++GlobalValues.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\common\globalvalues.cs
+++MD5Provider.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\common\md5provider.cs
+++NotifyBase.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\common\notifybase.cs
+++PasswordHelper.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\common\passwordhelper.cs
+++SerialPortUtil.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\common\serialportutil.cs
+++Converter
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\converter\
+++BoolToArrowConverter.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\converter\booltoarrowconverter.cs
+++BoolToBrushConverter.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\converter\booltobrushconverter.cs
+++GenderConverter.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\converter\genderconverter.cs
+++DataAccess
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\dataaccess\
+++DataEntity
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\dataaccess\dataentity\
+++UserEntity.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\dataaccess\dataentity\userentity.cs
+++LocalDataAccess.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\dataaccess\localdataaccess.cs
+++IoTDA
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\iotda\
+++IotDaMqtt.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\iotda\iotdamqtt.cs
+++Model
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\model\
+++CategoryItemModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\model\categoryitemmodel.cs
+++CourseModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\model\coursemodel.cs
+++CourseSeriesModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\model\courseseriesmodel.cs
+++LoginModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\model\loginmodel.cs
+++SensorModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\model\sensormodel.cs
+++SeriesModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\model\seriesmodel.cs
+++UserModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\model\usermodel.cs
+++View
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\
+++AddPageView.xaml
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\addpageview.xaml
+++ComPageView.xaml
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\compageview.xaml
+++CoursePageView.xaml
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\coursepageview.xaml
+++Detail.xaml
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\detail.xaml
+++FirstPageView.xaml
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\firstpageview.xaml
+++LoginView.xaml
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\loginview.xaml
+++MainView.xaml
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\mainview.xaml
+++ViewModel
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\viewmodel\
+++AddPageViewModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\viewmodel\addpageviewmodel.cs
+++ComViewModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\viewmodel\comviewmodel.cs
+++CoursePageViewModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\viewmodel\coursepageviewmodel.cs
+++DetailViewModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\viewmodel\detailviewmodel.cs
+++FirstPageViewModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\viewmodel\firstpageviewmodel.cs
+++LoginViewModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\viewmodel\loginviewmodel.cs
+++MainViewModel.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\viewmodel\mainviewmodel.cs
+++App.config
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\app.config
+++App.xaml
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\app.xaml
+++packages.config
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\packages.config
+++Resources.Designer.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\properties\resources.designer.cs
+++Settings.Designer.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\properties\settings.designer.cs
+++LiveCharts
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++LiveCharts.Wpf
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++MQTTnet
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++MQTTnet.Extensions.ManagedClient
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++Newtonsoft.Json
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.ComponentModel.Composition
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Configuration
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.IO
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Net.Security
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Net.WebSockets
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Net.WebSockets.Client
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Runtime
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Security.Cryptography.Algorithms
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Security.Cryptography.Encoding
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Security.Cryptography.Primitives
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++System.Security.Cryptography.X509Certificates
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:
+++iconfont.ttf
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\assets\fonts\iconfont.ttf
+++avatar.png
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\assets\images\avatar.png
+++Logo.png
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\assets\images\logo.png
+++DefaultStyle.xaml
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\assets\styles\defaultstyle.xaml
+++AddPageView.xaml.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\addpageview.xaml.cs
+++ComPageView.xaml.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\compageview.xaml.cs
+++CoursePageView.xaml.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\coursepageview.xaml.cs
+++Detail.xaml.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\detail.xaml.cs
+++FirstPageView.xaml.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\firstpageview.xaml.cs
+++LoginView.xaml.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\loginview.xaml.cs
+++MainView.xaml.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\view\mainview.xaml.cs
+++App.xaml.cs
+i:{0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5}:d:\program files\毕业设计\datamonitoringsystem\zhaoxi.coursemanagement\app.xaml.cs

@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5": {
+      "ProjectGuid": "0b3161bd-c39c-4ea7-badb-b9bfd7c07bf5",
+      "DisplayName": "Zhaoxi.CourseManagement",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "杂项文件",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}

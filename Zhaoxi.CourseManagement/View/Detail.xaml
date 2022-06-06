@@ -1,0 +1,187 @@
+﻿<Window x:Class="DataMonitoringSystem.View.Detail"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DataMonitoringSystem.View"
+             xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        xmlns:converter="clr-namespace:DataMonitoringSystem.Converter"
+        mc:Ignorable="d"
+        Height="450" Width="800"
+        FontFamily="Microsoft YaHei" FontWeight="ExtraLight" FontSize="12"
+        WindowStartupLocation="CenterScreen" Loaded="Window_Loaded" >
+    <Window.Resources>
+
+
+    </Window.Resources>
+    <ScrollViewer VerticalScrollBarVisibility="Hidden">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10"/>
+                <RowDefinition Height="480"/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+
+            <Grid Grid.Row="1" Margin="10,0">
+                <Grid.RowDefinitions>
+                    <RowDefinition MinHeight="35" Height="auto"/>
+                    <RowDefinition MinHeight="35" Height="auto"/>
+                    <RowDefinition MinHeight="35" Height="auto"/>
+                    <RowDefinition MinHeight="300" Height="auto"/>
+                </Grid.RowDefinitions>
+                <Grid Grid.Row="1" Margin="30,10" FocusManager.FocusedElement="{Binding ElementName=txtUserName}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition/>
+                        <RowDefinition MinHeight="23" Height="auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid Grid.Row="0" HorizontalAlignment="Left" Margin="0 0 0 6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" HorizontalAlignment="Left" Margin="0 0 0 6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="电压(Avg):" Margin="5 2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Name="txtVoltageAvg" IsEnabled="False"
+                         Text="{Binding SensorModel.VoltageAvg,UpdateSourceTrigger=PropertyChanged}">
+                            </TextBox>
+                        </Grid>
+                        <Grid Grid.Column="1" HorizontalAlignment="Left" Margin="0 0 0 6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="电压(Var):" Margin="5 2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Name="txtVoltageVar" IsEnabled="False"
+                         Text="{Binding SensorModel.VoltageVar,UpdateSourceTrigger=PropertyChanged}">
+                            </TextBox>
+                        </Grid>
+
+                    </Grid>
+                    <Grid Grid.Row="1" HorizontalAlignment="Left" Margin="0 0 0 6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" HorizontalAlignment="Left" Margin="0 0 0 6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="加速度x(Avg):" Margin="5 2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Name="txtElectricityAvg" IsEnabled="False"
+                         Text="{Binding SensorModel.ElectricityAvg,UpdateSourceTrigger=PropertyChanged}">
+                            </TextBox>
+                        </Grid>
+                        <Grid Grid.Column="1" HorizontalAlignment="Left" Margin="0 0 0 6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="加速度x(Var):" Margin="5 2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Name="txtElectricityVar" IsEnabled="False"
+                         Text="{Binding SensorModel.ElectricityVar,UpdateSourceTrigger=PropertyChanged}">
+                            </TextBox>
+                        </Grid>
+
+                    </Grid>
+                    <Grid Grid.Row="2" HorizontalAlignment="Left" Margin="0 0 0 6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" HorizontalAlignment="Left" Margin="0 0 0 6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="加速度y(Avg):" Margin="5 2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Name="txtSpeedAvg" IsEnabled="False"
+                         Text="{Binding SensorModel.SpeedAvg,UpdateSourceTrigger=PropertyChanged}">
+                            </TextBox>
+                        </Grid>
+                        <Grid Grid.Column="1" HorizontalAlignment="Left" Margin="0 0 0 6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="加速度y(Var):" Margin="5 2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Name="txtSpeedVar" IsEnabled="False"
+                         Text="{Binding SensorModel.SpeedVar,UpdateSourceTrigger=PropertyChanged}">
+                            </TextBox>
+                        </Grid>
+
+                    </Grid>
+                    <Grid Grid.Row="3" HorizontalAlignment="Left" Margin="0 0 0 6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Grid.Column="0" HorizontalAlignment="Left" Margin="0 0 0 6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+
+                            <TextBlock Grid.Column="0" Text="加速度z(Avg):" Margin="5 2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Name="txtAccSpeedAvg" IsEnabled="False"
+                         Text="{Binding SensorModel.AccSpeedAvg,UpdateSourceTrigger=PropertyChanged}">
+                            </TextBox>
+                        </Grid>
+                        <Grid Grid.Column="1" HorizontalAlignment="Left" Margin="0 0 0 6">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="200"/>
+                                <ColumnDefinition Width="150"/>
+                            </Grid.ColumnDefinitions>
+                            <TextBlock Grid.Column="0" Text="加速度z(Var):" Margin="5 2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                            <TextBox Grid.Column="1" Name="txtAccSpeedVar" IsEnabled="False"
+                         Text="{Binding SensorModel.AccSpeedVar,UpdateSourceTrigger=PropertyChanged}">
+                            </TextBox>
+                        </Grid>
+
+                    </Grid>
+                    <Grid Grid.Row="4" HorizontalAlignment="Left" Margin="0 0 0 6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="450"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="手法:" Margin="5 2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                        <TextBox Grid.Column="1" Name="txtName" IsEnabled="False"
+                         Text="{Binding CourseModel.CourseName,UpdateSourceTrigger=PropertyChanged}">
+                        </TextBox>
+                    </Grid>
+                    <Grid Grid.Row="5" HorizontalAlignment="Left" Margin="0 0 0 6">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="450"/>
+                        </Grid.ColumnDefinitions>
+                        <TextBlock Grid.Column="0" Text="描述:" Margin="5 2" HorizontalAlignment="Right" VerticalAlignment="Center"/>
+                        <TextBox Grid.Column="1" Name="txtDescription" IsEnabled="False"
+                         Text="{Binding CourseModel.Description,UpdateSourceTrigger=PropertyChanged}">
+                        </TextBox>
+                    </Grid>
+                    <!--<WrapPanel Orientation="Horizontal" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center">
+                        <Button Content="开始传输" Width="100" Height="30" VerticalAlignment="Center" Margin="30,5" Command="{Binding BeginCommand}"/>
+                        <Button Content="结束传输" Width="100" Height="30" VerticalAlignment="Center" Margin="30,5"  Command="{Binding SaveCommand}"/>
+                    </WrapPanel>-->
+                </Grid>
+
+            </Grid>
+
+        </Grid>
+    </ScrollViewer>
+
+</Window>
